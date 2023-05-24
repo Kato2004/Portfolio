@@ -6,6 +6,11 @@
   --brightness-hover: brightness(70%);
 }
 
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 body,
 * {
   font-family: sans-serif;
@@ -14,10 +19,18 @@ body,
 }
 
 .app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
   padding-top: 50px;
   padding-bottom: 10px;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  width: 90%;
+  max-width: 1200px;
 }
 
 * a {
@@ -26,5 +39,53 @@ body,
 
   :hover {
     transition: 0.3s ease;
+  }
+}
+
+section {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+.btn-theme {
+  background-color: transparent;
+  cursor: pointer;
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  padding: 15px;
+  border-radius: 40px;
+  border: none;
+  color: var(--tertiary-color);
+  z-index: 100;
+}
+
+.btn-theme svg {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-theme:hover {
+  filter: var(--brightness-hover);
+}
+
+@media (max-width: 1080px) {
+  section {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 90vw;
+  }
+
+  .btn-theme {
+    left: 5px;
+    top: 5px;
   }
 }

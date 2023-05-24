@@ -8,7 +8,9 @@ interface LayoutProps {
 }
 
 export const Layout = ({ children }: LayoutProps) => (
-  <div className="app">{children}</div>
+  <div className="app">
+    <div className="container">{children}</div>
+  </div>
 );
 
 Layout.prototype = {
