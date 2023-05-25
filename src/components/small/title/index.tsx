@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactNode } from "react";
-import "./style.css";
+import "./style.scss";
 
 interface ITitle {
   children: ReactNode;

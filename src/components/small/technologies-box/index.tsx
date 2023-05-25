@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
 
 export interface ISkill {
   techIcon: JSX.Element;

@@ -1,7 +1,7 @@
 import React from "react";
 import { IProjectCard, ProjectCard } from "../../small/project-card";
 import { Title } from "../../small/title";
-import "./style.css";
+import "./style.scss";
 
 interface IMyProjects {
   projects: IProjectCard[];

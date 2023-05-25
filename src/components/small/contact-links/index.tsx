@@ -4,7 +4,7 @@ import {
   AiOutlineLinkedin as LinkedinIcon,
   AiOutlineMail as EmailIcon,
 } from "react-icons/ai";
-import "./style.css";
+import "./style.scss";
 
 export const ContactLinks = () => {
   return (

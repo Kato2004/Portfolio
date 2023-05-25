@@ -4,12 +4,10 @@
   align-items: center;
   gap: 15px;
   font-size: 30px;
-}
-
-.profile-links a {
-  color: var(--tertiary-color);
-}
-
-.profile-links a:hover {
-  filter: var(--brightness-hover);
+  a {
+    color: var(--tertiary-color);
+    &:hover {
+      filter: var(--brightness-hover);
+    }
+  }
 }

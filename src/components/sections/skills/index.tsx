@@ -1,5 +1,5 @@
 import { ISkill, TechnologiesBox } from "../../small/technologies-box";
-import "./style.css";
+import "./style.scss";
 import { Title } from "../../small/title";
 
 import React from "react";

@@ -3,7 +3,7 @@ import {
   TbFileDownload as FileDownloadIcon,
   TbUser as ProfileIcon,
 } from "react-icons/tb";
-import "./style.css";
+import "./style.scss";
 import { Title } from "../../small/title";
 import curriculumPDF from "./curriculo-kaua.pdf";
 

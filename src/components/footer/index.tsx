@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactLinks } from "../small/contact-links/index";
 import { AiFillHeart } from "react-icons/ai";
-import "./style.css";
+import "./style.scss";
 
 export const Footer = () => {
   return (

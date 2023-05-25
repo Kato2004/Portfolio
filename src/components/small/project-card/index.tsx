@@ -6,7 +6,7 @@ export interface IProjectCard {
   tags: string[];
   projectSrc: string;
 }
-import "./style.css";
+import "./style.scss";
 
 export const ProjectCard = ({
   imgSrc,

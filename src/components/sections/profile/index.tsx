@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./style.css";
+import "./style.scss";
 import { ContactLinks } from "../../small/contact-links/index";
 
 interface IData {

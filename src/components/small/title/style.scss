@@ -1,0 +1,23 @@
+.title {
+  position: relative;
+  margin: 10px 0 30px 0;
+  text-align: center;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    left: 0;
+    top: 10px;
+    background-color: var(--primary-color);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    right: 0;
+    top: 10px;
+    background-color: var(--primary-color);
+  }
+}

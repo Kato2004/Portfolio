@@ -62,15 +62,14 @@ section {
   border: none;
   color: var(--tertiary-color);
   z-index: 100;
-}
+  svg {
+    width: 40px;
+    height: 40px;
+  }
 
-.btn-theme svg {
-  width: 40px;
-  height: 40px;
-}
-
-.btn-theme:hover {
-  filter: var(--brightness-hover);
+  &:hover {
+    filter: var(--brightness-hover);
+  }
 }
 
 @media (max-width: 1080px) {
