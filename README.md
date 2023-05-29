@@ -5,6 +5,8 @@
   <ul>
     <li>React</li>
     <li>Typescript</li>
+    <li>Gatsby</li>
+    <li>Sass</li>
     <li>React-icons</li>
   </ul>
 </div>
